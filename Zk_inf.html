@@ -1,47 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">JJBA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarColor02">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="Zk_inf.html">Základní informace
-                  <span class="visually-hidden">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Hl_postavy.html">Hlavní postavy</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="HL_záporáci.html">Hlavní záporáci</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Hamon.html">Hamon</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Standy</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="St_hl_p.html">Standy hlavních postav</a>
-                  <a class="dropdown-item" href="St_hl_z.html">Standy hlavních záporáků</a>
-                  <a class="dropdown-item" href="Dl_zm_st.html">Další zajímsvé standy</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
-      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">JJBA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+        aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="Zk_inf.html">Základní informace
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Hl_postavy.html">Hlavní postavy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="HL_záporáci.html">Záporáci</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Standy</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="St_hl_p.html">Standy hlavních postav</a>
+              <a class="dropdown-item" href="St_hl_z.html">Standy hlavních záporáků</a>
+              <a class="dropdown-item" href="Dl_zm_st.html">Další zajímavé standy</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="wb_spl.html">Weby spolužáků</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <h1 class="text-center">
+    Úvod
+  </h1>
+  <p>
+    JoJo's Bizarre Adventure (JJBA) je anime/manga, která sleduje příběh rodiny Joestarů a jejich bizarní dobrodružství.
+  </p>
+  <h2 class="text-center">
+    Rozdělení na části neboli party
+  </h2>
+  <p>
+    JJBA se dělí na části (párty), kde každá část sleduje jiného člena rodiny Joestarů. Anime zatím adaptovalo prvních 6
+    partu, takže se bude zaměřovat hlavně na ně.
+  </p>
+
+  <h3 class="text-center">
+    Systém schopností
+  </h3>
+  <p>
+    V prvních dvou partech se využívá hamon, což je speciální technika, která využívá dech a vitální energii k vytváření
+    a
+    manipulaci s energií podobnou slunečnímu záření, jež je účinná proti nadpřirozeným bytostem.
+  </p>
+  <p>
+    V následujících partech se používá takzvaný stand, což je nadpřirozená bytost nebo síla, kterou může její nositel
+    ovládat a
+    která mu poskytuje různé unikátní schopnosti, často s fyzickými nebo psychickými účinky.
+  </p>
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Obrázky/Part_1.jpg" alt="Los Angeles" class="mx-auto d-block" height="200px" width="200px">
+        <div class="carousel-caption">
+          <h3>Part 1</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Obrázky/Part_2.jpg" alt="Chicago" class="mx-auto d-block" height="200px" width="200px">
+        <div class="carousel-caption">
+          <h3>Part 2</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Obrázky/Part_3.jpg" alt="New York" class="mx-auto d-block" height="200px" width="200px">
+        <div class="carousel-caption">
+          <h3>Part 3</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Obrázky/Part_4.jpg" alt="New York" class="mx-auto d-block" height="200px" width="200px">
+        <div class="carousel-caption">
+          <h3>Part 4</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Obrázky/Part_5.jpg" alt="New York" class="mx-auto d-block" height="200px" width="200px">
+        <div class="carousel-caption">
+          <h3>Part 5</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Obrázky/Part_6.jpg" alt="New York" class="mx-auto d-block" height="200px" width="200px">
+        <div class="carousel-caption">
+          <h3>Part 6</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <table class="table table-striped table-bordered table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col" class="text-center">Part</th>
+        <th scope="col" class="text-center">Hlavní postava</th>
+        <th scope="col" class="text-center">Hlavní záporák</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Part 1 Phantom Blood</td>
+        <td>Jonathan Joestar</td>
+        <td>Dio Brando</td>
+      </tr>
+      <tr>
+        <td>Part 2 Battle Tendency</td>
+        <td>Joseph Joestar</td>
+        <td>Kars</td>
+      </tr>
+      <tr>
+        <td>Part 3 Stardust Crusaders</td>
+        <td>Jotaro Kujo</td>
+        <td>Dio Brando</td>
+      </tr>
+      <tr>
+        <td>Part 4 Diamond Is Unbreakable</td>
+        <td>Josuke Higashikata</td>
+        <td>Yoshikage Kira</td>
+      </tr>
+      <tr>
+        <td>Part 5 Golden Wind</td>
+        <td>Giorno Giovanna</td>
+        <td>Diavolo</td>
+      </tr>
+      <tr>
+        <td>Part 6 Stone Ocean</td>
+        <td>Jolyne Cujoh</td>
+        <td>Enrico Pucci</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
+
 </html>
